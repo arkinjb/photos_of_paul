@@ -1,1 +1,18 @@
-hello world
+<div class="container">
+
+  <div class="main_photo">
+    <h2><%= @photos.first.title %></h2>
+      <img src="<%= @photos.first.photo_url %>" />
+
+  </div>  <!--end of main photo div -->
+
+  <div class="thumbnails">
+    <% @photos.each do |photo| %>
+      <img src="<%= photo.photo_url %>" />
+    <% end %>
+
+  </div>  <!--end of thumbnails div -->
+
+
+
+</div>  <!--end of container div -->
