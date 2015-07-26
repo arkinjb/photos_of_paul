@@ -1,21 +1,19 @@
 <div class="container">
 
-  <div class="new_form">
+  <div class="photo_form">
     <h2>Add a Photo of Paul</h2>
 
     <form method="post" action="/photos">
-      <ul>
         <label for="photo[title]">Photo Title:</label>
-        <li><input type="text" name="photo[title]" placeholder="Paul at the Beach"></li>
+        <input type="text" name="photo[title]" placeholder="Paul at the Beach">
 
         <label for="photo[photo_url]">Photo URL:</label>
-        <li><input type="text" name="photo[photo_url]" placeholder="http://www.photosofpaulclub.com/paul.jpg"></li>
+        <input type="text" name="photo[photo_url]" placeholder="http://www.photosofpaulclub.com/paul.jpg">
 
         <label for="photo[member_id]">Your Name:</label>
-        <li><input type="text" name="photo[member_id]" placeholder="Paul Smith"></li>
-        
-        <li><input type="submit" value="Add a Paul"></li>
-      </ul>
+        <input type="text" name="photo[member_id]" placeholder="Paul Smith">
+
+        <input type="submit" value="Add a Paul">
     </form>
 
   </div> <!-- end of new form div -->

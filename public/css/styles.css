@@ -54,14 +54,6 @@ header a {
   border-radius: 10px;
 }
 
-.new_form h2{
-  padding-left: 40px;
-}
-
-form ul {
-  list-style: none;
-}
-
 input {
   display: block;
   margin: 5px 0 20px 0;

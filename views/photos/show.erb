@@ -4,6 +4,9 @@
     <h2><%= @photo.title %></h2>
     <img src="<%= @photo.photo_url %>" />
     <p>Added by <%= @photo.member.first_name %> <%= @photo.member.last_name %> on <%= @photo.date_added %> </p>
+    <p></p>
+    <p><a href="/photos/<%= @photo.id %>/edit">Edit this Paul</a></p>
+    <p><a href="/photos">Back to All the Pauls</a></p>
 
   </div>  <!--end of main photo div -->
 

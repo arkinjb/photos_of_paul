@@ -1,0 +1,20 @@
+<div class="container">
+
+  <div class="edit_form">
+    <h2>Edit a Paul</h2>
+
+    <form method="post" action="/photos/<%= @photo.id %>">
+      <input type="hidden" name="_method" value="put">
+
+      <label for="photo[title]">Photo Title:</label>
+      <input type="text" name="photo[title]" value="<%= @photo.title %>" placeholder="Paul at the Beach">
+
+      <label for="photo[photo_url]">Photo URL:</label>
+      <input type="text" name="photo[photo_url]" value="<%= @photo.photo_url %>" placeholder="http://www.photosofpaulclub.com/paul.jpg">
+
+      <input type="submit" value="Edit a Paul">
+    </form>
+
+  </div> <!-- end of new form div -->
+
+</div>
